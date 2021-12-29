@@ -4,7 +4,7 @@ date: '29.12.2021 17:00'
 isPublished: true
 ---
 
-Bir kaç gün önce sınıfta 2 vaka olduğundan dolayı karantinaya girdik. Şimdiki aka sayısı 4-7 arasında, ben de tam emin değilim.
+Bir kaç gün önce sınıfta 2 vaka olduğundan dolayı karantinaya girdik. Şimdiki vaka sayısı 4-7 arasında, ben de tam emin değilim.
 
 İlk olanlar aynı arkadaş grubunda: Popüler, sıkıntılı, okulu umursamayan _**o**_ arkadaş grubu. Bunların bir sıkıntısı daha var; Pandemideyken normal hayat yaşıyorlar, güzelce söylemek gerekirse.
 
