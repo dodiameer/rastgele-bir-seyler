@@ -1,6 +1,7 @@
 ---
-isNormalPage: true
 title: 'Benim Hakkında'
+isNormalPage: true
+isPublished: true
 ---
 
 Adım Mohammed, soyadım Ali Agha (telaffuzu "Aga"). 17 yaşındayım ve 10. sınıf öğrencisiyim.
