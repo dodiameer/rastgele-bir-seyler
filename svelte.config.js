@@ -3,6 +3,7 @@ import mdsvexConfig from './mdsvex.config.js';
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 import tsconfigPaths from 'vite-tsconfig-paths';
+import Icons from 'unplugin-icons/vite';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -23,7 +24,7 @@ const config = {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 		vite: {
-			plugins: [tsconfigPaths()],
+			plugins: [tsconfigPaths(), Icons({ compiler: 'svelte' })],
 		},
 	},
 };

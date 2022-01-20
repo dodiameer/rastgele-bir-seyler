@@ -16,8 +16,8 @@
 {#if isPublished}
 	{#if !isNormalPage}
 		<PostLayout>
-			<h1 class="title">{title}</h1>
-			<p class="text-gray-700 text-sm">{date} tarihinde {author} tarafından yazılmıştır</p>
+			<h1>{title}</h1>
+			<p class="text-gray-700 text-base">{date} tarihinde {author} tarafından yazılmıştır</p>
 			<slot />
 		</PostLayout>
 	{:else}
