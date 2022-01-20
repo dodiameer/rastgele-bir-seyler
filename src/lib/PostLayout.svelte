@@ -1,11 +1,15 @@
+<script lang="ts">
+	import IconHome from '~icons/mdi/home';
+</script>
+
 <a
 	href="/"
 	class="fixed bottom-4 right-4 bg-primary text-primary-text no-underline rounded-full flex items-center justify-center p-2 text-2xl"
 	title="Ana sayfaya dön"
 >
-	<i class="i-mdi:home" />
+	<IconHome />
 	<p class="sr-only">Ana sayfaya dön</p>
 </a>
-<article class="text-base prose prose-primary mx-auto px-6">
+<article class="container prose prose-blue lg:prose-lg lg:pt-4">
 	<slot />
 </article>

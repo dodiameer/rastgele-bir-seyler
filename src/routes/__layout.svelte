@@ -1,11 +1,5 @@
 <script lang="ts">
-	import 'uno.css';
-	// import '@unocss/reset/sanitize/sanitize.css';
-	// import '@unocss/reset/sanitize/assets.css';
-	// import '@unocss/reset/sanitize/typography.css';
-	// import '@unocss/reset/sanitize/forms.css';
-	import '@unocss/reset/tailwind.css';
-	import '../global.css';
+	import '../app.css';
 	import { TITLE } from '$lib/constants';
 
 	const links = [
@@ -20,10 +14,10 @@
 	];
 </script>
 
-<nav class="px-2 py-4 bg-primary text-primary-text">
-	<div class="c flex flex-col space-y-2">
-		<a href="/">
-			<h1>{TITLE}</h1>
+<nav class="px-2 py-4 bg-primary text-primary-text mb-3">
+	<div class="container flex flex-col space-y-2">
+		<a href="/" class="title !mb-0">
+			{TITLE}
 		</a>
 		<ul class="flex flex-row items-center space-x-4 flex-wrap">
 			{#each links as link}
@@ -34,6 +28,6 @@
 		</ul>
 	</div>
 </nav>
-<main>
+<main class="pb-6">
 	<slot />
 </main>
