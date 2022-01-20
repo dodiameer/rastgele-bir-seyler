@@ -1,0 +1,23 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	/* System fonts */
+	font-family: Manrope, sans-serif;
+}
+
+@layer utilities {
+	.debug {
+		@apply outline outline-red-500;
+	}
+
+	.title {
+		@apply text-2xl font-bold mb-3;
+	}
+
+	.subtitle {
+		@apply text-xl font-semibold mb-2;
+	}
+}

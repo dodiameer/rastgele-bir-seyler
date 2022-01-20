@@ -16,9 +16,9 @@
 	<title>Anasayfa | {TITLE}</title>
 </svelte:head>
 
-<section class="c">
-	<h2>Yazılar</h2>
-	<ul class="no-list mt-2 space-y-2">
+<section class="container">
+	<h2 class="subtitle">Yazılar</h2>
+	<ul class="mt-2 space-y-2">
 		{#each posts as post}
 			<li class="flex flex-col">
 				<a class="text-primary-900 font-semibold text-lg" href={post.link} sveltekit:prefetch>
