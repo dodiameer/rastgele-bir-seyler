@@ -13,7 +13,7 @@
 <svelte:head>
 	<title>{title ?? TITLE}</title>
 </svelte:head>
-{#if isPublished}
+{#if isPublished || import.meta.env.DEV}
 	{#if !isNormalPage}
 		<PostLayout>
 			<h1>{title}</h1>
